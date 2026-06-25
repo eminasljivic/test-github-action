@@ -1,6 +1,7 @@
 name: Execute Enrich Policy
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
 
