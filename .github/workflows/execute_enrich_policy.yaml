@@ -1,0 +1,11 @@
+name: Execute Enrich Policy
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hi"
