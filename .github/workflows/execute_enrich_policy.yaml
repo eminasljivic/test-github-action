@@ -2,6 +2,8 @@ name: Execute Enrich Policy
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [new_gps_data]
 
 jobs:
   run:
